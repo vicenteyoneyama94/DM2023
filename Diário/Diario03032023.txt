@@ -1,0 +1,165 @@
+Na aula de hoje vamos seguir um objetivo
+
+Seguindo os seguintes conteúdos:
+
+Parâmetros posicionais, opcionais e nomeados
+
+Function Parameter (FP)
+Anonymous Function (FA)
+Arrow function (AR)
+
+Com o objetivo de aprender:
+
+Compreensão na Semântica
+Ser capz de exemplificar
+Domínio na Sintaxe
+Ser capaz de codificar e entender sem consulta
+Domínio em diferencias ";" e ","
+
+Ser capaz de codificar e entender sem consulta
+
+Capacidade de escrita/leitura das FP, FA e AR.
+Ser capaz de codificar sem consulta
+
+O que são funções???
+
+Basicamente um conjuto de códigos que pode ser chamado para
+realizar determinada tarefa quantas vezes forem necessarias.
+
+Chamando na main:
+
+print(funcao(4,4)) -- Chama a função.
+funcao(a, b) { -- Com parâmetro e com retorno.
+return (a + b);
+}
+
+O que é top Level Function?
+
+Função que pode ser chamada diretamente,
+sem criar objeto ou chamar classe ou funções.
+
+Existem 4 tipos de funções:
+
+Sem retorno e sem parâmetro:
+
+void verificarAprovacao2() {
+  double nota1, nota2, md;
+
+  print('informa nota1: ');
+  nota1 = double.parse(stdin.readLineSync()!);
+
+  print('informa nota2: ');
+  nota2 = double.parse(stdin.readLineSync()!);
+
+  md = (nota1 + nota2) / 2;
+Sem retorno e com parâmetro:
+
+void verificarAprovacao3(double nota1, double nota2) {
+  double md = (nota1 + nota2) / 2;
+  print((md >= 6) ? 'aprovado' : 'reprovado');
+}
+
+Com retorno e sem parâmetro:
+
+verificarAprovacao4() {
+  double nota1, nota2, md;
+
+  print('informa nota1: ');
+  nota1 = double.parse(stdin.readLineSync()!);
+
+  print('informa nota2: ');
+  nota2 = double.parse(stdin.readLineSync()!);
+
+  md = (nota1 + nota2) / 2;
+
+  if (md >= 6) {
+    return 'aprovado';
+  } else {
+    return 'reprovado';
+  }
+}
+
+Com retorno e com parâmetro:
+String verificarAprovacao5(double nota1, double nota2) {
+  var md = (nota1 + nota2 / 2);
+  if (md >= 6) {
+    return 'aprovado';
+  } else {
+    return 'reprovado';
+  }
+}
+
+Parâmetros posicionais, opcionais e nomeados:
+
+Posicionais:
+Parâmetros em que há a descrição,
+permitindo a
+definição dos parâmetros em ordem aleatória.
+
+Na chamada da função verificarAprovacao:
+somos obrigados a informar todos os parâmetros
+somos obrigados e informar na sequência correta
+
+ var valor = verificarAprovacao(nota1, nota2, 6);  
+ print(valor);   
+Na chamada da função com parâmetros nomeados
+→ definindo a média que é um valor opcional
+
+  valor = verificarAprovacaoComParametrosNomeados(nota1 : 6, nota2 : 8, media: 7);   
+  print(valor); 
+
+Parâmetros nomeados:
+
+Define-se parâmetros nomeados por meio de {}
+Por padrão os parâmetros nomeados são OPCIONAIS - assim é necessário definir o valor padrão
+Para tornar parâmetros nomeados obrigatórios utilizamos a palavra chave "required"
+O objetivo dos parâmetros nomeados é tornar a leitura mais claro
+
+String verificarAprovacaoComParametrosNomeados({required double nota1, required double nota2, double media = 6}){
+  double nota =  (nota1 + nota2) / 2;
+  if(nota > media){
+    return 'aprovado';
+  }else{
+    return 'reprovado';
+  }
+}
+String verificarAprovacaoComParametrosNomeadosEAnonimos(double nota1, {double nota2 = 0, double media = 6}){
+  double nota;
+  if(nota2 == 0){
+    nota = nota1;
+  }else{
+    nota =  (nota1 + nota2) / 2;
+  }
+  if(nota > media){
+    return 'aprovado';
+  }else{
+    return 'reprovado';
+  }
+}
+Function Parameter (FP):
+
+Ele é usado quando precisamos de uma ação,
+nós sabemos o que é preciso mas sabemos como fazer.
+
+Exemplo:
+
+A função verificarAprovação precisa definir uma nota para que seja possível verificar a aprovação. 
+Sabemos "o que" é preciso ser feito, que no caso é definir nota.
+Porém, não sabemos exatamente "como", visto que, cada professor pode fazer de uma forma.
+
+bool verificarAprovacao(double nota1, double nota2, Function definirNota){
+    double nota = definirNota(nota1,nota2);
+    return (nota >= 6);
+}
+
+Anonymous Function (FA):
+
+Se trata de uma função sem nome, sendo assim, não pode ser chamada.
+A sua sintaxe é a mesma de uma função comum, porém sem nome e definição de retorno.
+É utilizada quando para definir uma ação desconhecida e que não precisa ser reaproveitada.
+
+https://github.com/heliokamakawa/flutter_course/tree/master/lib/modulo_04/aula01_funcoes/01_sintaxe
+https://github.com/heliokamakawa/flutter_course/tree/master/lib/modulo_04/aula01_funcoes/02_parametros
+https://github.com/heliokamakawa/flutter_course/tree/master/lib/modulo_04/aula01_funcoes/06_function_parameter
+https://github.com/heliokamakawa/flutter_course/tree/master/lib/modulo_04/aula01_funcoes/07_funcoes_anonimas
+https://github.com/heliokamakawa/flutter_course/tree/master/lib/modulo_04/aula01_funcoes/08_arrow_function

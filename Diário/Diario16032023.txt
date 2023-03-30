@@ -1,0 +1,22 @@
+Os exercicios se encontram na pasta projetos.
+
+Exemplos:
+Fornecedor(
+    contato: 'Andre',
+    documento: '123.456.789-10',
+    nome: 'Mercado Tio João',
+    telefone: '(42 3025 2689)',
+    cidade: 
+      Cidade(
+        nome: 'PARANAVAI',
+        estado: 
+          Estado(
+            nome: 'PARANA', 
+            sigla: 'PR',
+          ), //separando valores com virgula
+      )
+); - ponto virgula final de instrução
+
+a vírgula serve para separar valores e argumentos,
+enquanto o ponto e vírgula serve para separar instruções
+em uma mesma linha de código.

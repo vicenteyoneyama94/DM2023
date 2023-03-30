@@ -1,0 +1,83 @@
+Aprendendo estruras simples em fluter
+
+As a atividades são:
+
+Atividade I - Prática!!!
+Crie mais 2 projetos (sem copiar/colar/aproveitar código); Em um dos projetos crie pelo menos 5 interfaces diferentes.
+
+Atividade II - responda as questões (arquivo 1 e 2)
+Tente realizar sozinho e sem consulta. Caso não consiga pode consultar ou pedir ajuda. Para cada questão, identifique se precisou de ajuda (I - consulta internet, C - ajuda dos colegas, P - ajuda do professor, D - discussão)
+
+Atividade III
+Ao terminar, forme duplas e faça a discussão das respostas!!! Concorde e/ou discorde com argumentos! em relação ao App
+
+POO
+01 - Caso exista em relação ao código acima, informe:
+ a) Nome classe: App  b) Herança: StatelessWidget  c) Nome interface: 
+ d) Atributos:title  e) Métodos: Home  f) nome construtor(es): build
+02 - Por qual motivo build é obrigatório?
+Porque ele herda de statelesswidget,
+no Flutter porque ele é responsável
+por construir e retornar a árvore de
+widgets que compõem a interface do usuário da tela.
+
+03 - Qual é a assinatura do build? Podemos alterar? Explique.
+Widget build(BuildContext context)
+
+A assinatura do método build não pode ser alterada,
+pois é definida pela classe StatelessWidget, que é
+uma classe abstrata no Flutter
+
+04 - O que é context? Qual tipo? Podemos alterar para outro nome (justifique)?
+É um objeto que representa o contexto de um widget em uma hierarquia de widgets.
+
+O tipo de BuildContext é uma classe abstrata definida no Flutter
+e pode ser passado como parâmetro para muitos métodos e
+construtores que requerem acesso ao contexto.
+Pode alterar o nome, mas não é recomendado pois dificulta na identificação.
+
+05 - Utilizamos parâmetros? Se sim, onde (explique/detalhe), quais são os tipos e informe se são obrigatórios?
+Sim, no método build
+
+06 - O que é const? Para que serve? Por que devemos utilizá-lo?
+
+07 - Em que caso não se deve definir const? Exemplifique.
+Dart - Widget
+
+01 - Quais são as opções de importação do StatelessWidget? Explique as diferenças.
+
+02 - No método build, é possível definir o parâmetro sem o tipo?
+Se sim, qual seria melhor (com ou sem a definição do tipo)?
+
+Em relação ao Home
+01 - Explique em detalhes, o title (o que é, de quem é, como é, o que se espera)?
+
+02 - Em relação ao código acima, quantos objetos foram criados? Justifique.
+
+03 - Por que utilizou-se const no contrutor da classe? Qual vantagem?
+
+04 - Em que caso não devemos utilizar const no contrutor da classe?
+
+05 - O que é e para que serve o key?
+
+06 - Em relação ao Scaffold:
+(a) Todos os parâmetros que definimos no construtor do Scaffold são obrigatórios? Explique.
+(c) Informe o nome de 1 parâmetro de valor de 1 parâmetro de referência.
+(d) Em relação ao código, defina mais 2 parâmetros - 1 que não gere o impacto visual.
+
+Statelesswidget - Varios tipos
+
+abstrac class flutter
+
+Material
+
+App.dart
+
+WidgetsFlutterBinding.ensureInitialized() ..scheduleAttachRootWidget(app) <-- raiz da arvore de Widget ..ScheduleWarmUpFrame(); <-- optimiza a tela
+
+Diário
+
+Professor explicou as funções do Main, onde criamos a estrutura da aplicação, em seguida
+a parte da aplicação.
+passou como atividade criar 5 interfaces como treino e um questionário teórico
+como atividade, feito junto com o Carlos Eduardo.

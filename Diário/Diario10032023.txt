@@ -1,0 +1,26 @@
+Exercios em flutter
+
+Os exercicios se encontram na pasta projetos.
+
+Atividade:
+
+Criar professor com 2 atributos
+Alterar atributos do professor para não nulos
+Alterar para contrutores nomeados
+Criar um objeto aluno no print
+Alterar professor para ter atributos nulos e não nulos
+Alterar professor para ter um parameter function
+Criar um objeto professor com função nomeada
+Criar um objeto professor com função anônima
+Criar um objeto professor com arrow function
+Criar um objeto professor com arrow function no print
+
+Atividade de Consolidação Em relação ao Pedido:
+
+Criar 1 objeto utilizando referência nomeada;
+Criar 3 objetos com referência anônima com dados diferentes e imprimir >>>UTILIZAR PARAMETROS NOMEADOS<<<;
+
+Observação:
+Cada classe deve ter um parameter function
+Criar 2 atributos personalizados para cada classe
+Criar um exemplo personalizado com a mesma complexidade.

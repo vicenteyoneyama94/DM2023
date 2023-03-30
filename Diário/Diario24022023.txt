@@ -1,0 +1,42 @@
+Na aula de hoje fizemos as seguintes atividades:
+
+Atividade 1
+Criar variáveis de diversos tipos
+
+Atividade 2
+Criar escopo do projeto para realizar como diário
+
+Atividade 3
+Ao invés de atribuir valores, solicite os dados para o usuário
+
+Função sem retorno e com parâmetro
+Função sem retorno e sem parâmetro
+função com retorno e sem parâmetro
+Função com retorno e com parâmetro
+
+Sabado letivo:
+
+Exercício I
+Para cada variante de função que estudamos elaborar a seguinte função: 
+→ função calularSalario - precisa do (i) valor salario e o (ii) valor do desconto.
+Permitir o desconto somente se haver saldo.
+No final informar o saldo.
+
+Exercício II
+Pensar em um projeto único - quanto maior o escopo melhor - possibilita pensar em vários exemplos.
+Elabroar funções no escopo do projeto (autêntico).
+Fazer comentários de tudo que entendeu.
+Elabore:
+
+Duas funções sem retorno e sem parâmetro;
+Duas funções sem retorno e com parâmetro;
+Duas funções com retorno e sem parâmetro;
+Duas funções com retorno e com parâmetro;
+Duas funções com parâmetros opcionais (com o devido contexto);
+Duas funções com parâmetros nomeados.
+
+Exercício III
+Em relação a sintaxe,
+quais são as variantes na escrita de uma função?
+Quais são as especificidades
+e em que caso pode-se utilziar cada uma?

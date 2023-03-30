@@ -1,0 +1,36 @@
+Sabado letivo:
+
+Exercício I
+Para cada variante de função que estudamos elaborar a seguinte função: 
+→ função calularSalario - precisa do (i) valor salario e o (ii) valor do desconto.
+Permitir o desconto somente se haver saldo.
+No final informar o saldo.
+
+Exercício II
+Pensar em um projeto único
+- quanto maior o escopo melhor
+- possibilita pensar em vários exemplos.
+Elabroar funções no escopo do projeto (autêntico).
+Fazer comentários de tudo que entendeu.
+Elabore:
+
+Duas funções sem retorno e sem parâmetro;
+Duas funções sem retorno e com parâmetro;
+Duas funções com retorno e sem parâmetro;
+Duas funções com retorno e com parâmetro;
+Duas funções com parâmetros opcionais (com o devido contexto);
+Duas funções com parâmetros nomeados.
+
+Exercício III
+Em relação a sintaxe,
+quais são as variantes na escrita de uma função?
+Quais são as especificidades e em que caso pode-se
+utiliziar cada uma?
+
+Variantes caso precise colocar uma
+função com ou sem retorno e com ou sem parametro.
+Sendo especifico,
+quando voce precisa retornar algum valor,
+voce utiliza o retorno.
+Quando voce ja tem uma variável,
+voce pode colocar como parametro usar dentro da função.

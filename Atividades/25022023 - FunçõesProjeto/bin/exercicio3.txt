@@ -1,0 +1,6 @@
+1) Em relação a sintaxe, quais são as variantes na escrita de uma função?
+Quais são as especificidades e em que caso pode-se utilziar cada uma?
+
+variantes caso precise colocar uma função com ou sem retorno e com ou sem parametro.
+Sendo especifico, quando voce precisa retornar algum valor, voce utiliza o retorno.
+quando voce ja tem uma variável, voce pode colocar como parametro usar dentro da função.
