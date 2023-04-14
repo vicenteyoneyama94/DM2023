@@ -11,7 +11,7 @@ class Login extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: const Text('Login')),
         body: ElevatedButton(
-            child: const Text('Home'),
+            child: const Text('Cadastrar'),
             onPressed: () {
               Route rota = MaterialPageRoute(builder: (context) => Cadastro());
               //Navigator.of(context).push(rota);

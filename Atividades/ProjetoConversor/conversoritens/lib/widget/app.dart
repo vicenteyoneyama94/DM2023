@@ -1,3 +1,4 @@
+import 'package:conversoritens/widget/add_loja.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -8,6 +9,15 @@ class App extends StatelessWidget {
           title: const Text("Conversor Início"),
           centerTitle: true,
           backgroundColor: const Color.fromARGB(153, 99, 21, 21),
+          actions: <Widget>[
+            IconButton(
+                onPressed: () {
+                  Route rota =
+                      MaterialPageRoute(builder: (context) => add_Loja());
+                  navigator.push(context, rota);
+                },
+                icon: Icon(Icons.add))
+          ],
         ),
         body: Container(
           alignment: Alignment.center,
