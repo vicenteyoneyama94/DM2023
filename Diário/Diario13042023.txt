@@ -1,0 +1,3 @@
+Professor fez a explicação sobre widgets e alinhamento, no site do flutter.
+Após todas as explicações, deixou a livre e espontanea vontade a desenvolver o projeto pessoal.
+Ficou a disposição para os alunos mostrarem o que estão desenvolvendo e tirando duvidas sobre os projetos
