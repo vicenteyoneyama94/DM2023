@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/24022023 - FunçõesSintaxe/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/24022023 - FunçõesSintaxe/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/24022023 - FunçõesSintaxe/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/flutter_application_container/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/flutter_application_container/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/flutter_application_container/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - aplicacao_atividade/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - aplicacao_atividade/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - aplicacao_atividade/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_application_Estrutura/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_application_Estrutura/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_application_Estrutura/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/ProjetoConversor/conversoritens/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/ProjetoConversor/conversoritens/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/ProjetoConversor/conversoritens/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_atividadeddmAplicação/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_atividadeddmAplicação/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/23032023 - Aula/23032023 - flutter_atividadeddmAplicação/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - atividade03Classes/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - atividade03Classes/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - atividade03Classes/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/25022023 - FunçõesProjeto/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/25022023 - FunçõesProjeto/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/25022023 - FunçõesProjeto/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/16032023 - dart_projectParametros/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/16032023 - dart_projectParametros/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/16032023 - dart_projectParametros/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - aulaflutterClasses/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - aulaflutterClasses/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/10032023 - aulaflutterClasses/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

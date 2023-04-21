@@ -1,4 +1,4 @@
-import 'package:conversoritens/widget/app.dart';
+import 'package:conversoritens/widget/home.dart';
 import 'package:flutter/material.dart';
 
 class add_Item extends StatelessWidget {
@@ -33,7 +33,7 @@ class add_Item extends StatelessWidget {
           ElevatedButton(
               child: const Text('Salvar Item'),
               onPressed: () {
-                Route rota = MaterialPageRoute(builder: (context) => App());
+                Route rota = MaterialPageRoute(builder: (context) => Home());
               }),
         ])));
   }
