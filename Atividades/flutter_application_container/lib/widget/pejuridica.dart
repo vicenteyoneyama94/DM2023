@@ -5,12 +5,12 @@ class peJuridica extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Pessoa Jurídica')),
+      appBar: AppBar(centerTitle: true, title: Text('Pessoa Jurídica')),
       body: ElevatedButton(
         child: const Text('Finalizar formulário'),
         onPressed: () {
           Route rota = MaterialPageRoute(builder: (context) => Lista());
-          Navigator.push(context, rota);
+          Navigator.pop(context, rota);
         },
       ),
     );

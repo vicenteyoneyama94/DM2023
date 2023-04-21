@@ -6,15 +6,15 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Conversor Início"),
+          title: const Text("Lista de Compras"),
           centerTitle: true,
-          backgroundColor: const Color.fromARGB(153, 99, 21, 21),
+          backgroundColor: Color.fromARGB(232, 240, 87, 87),
           actions: <Widget>[
             IconButton(
                 onPressed: () {
                   Route rota =
                       MaterialPageRoute(builder: (context) => add_Loja());
-                  navigator.push(context, rota);
+                  Navigator.push(context, rota);
                 },
                 icon: Icon(Icons.add))
           ],
@@ -23,7 +23,7 @@ class App extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           height: 300,
-          color: Color.fromARGB(255, 197, 186, 186),
+          color: Color.fromARGB(255, 255, 254, 254),
           child: Column(
             children: [
               TextField(

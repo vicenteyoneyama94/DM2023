@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_container/widget/cadastro.dart';
+import 'package:flutter_application_container/widget/login.dart';
 import 'package:flutter_application_container/widget/detalhes.dart';
 import 'package:flutter_application_container/widget/home.dart';
+import 'package:flutter_application_container/widget/index.dart';
 import 'package:flutter_application_container/widget/lista.dart';
-import 'package:flutter_application_container/widget/login.dart';
+import 'package:flutter_application_container/widget/tipo_pessoa.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -16,9 +17,10 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (context) => Login(),
-        'home': (context) => Home(),
-        'cadastro': (context) => Cadastro(),
+        '/': (context) => Home(),
+        'home': (context) => Index(),
+        'login': (context) => Login(),
+        'cadastrar': (context) => tipo_Pessoa(),
         'lista': (context) => Lista(),
         'detalhes': (context) => Detalhes(),
       },

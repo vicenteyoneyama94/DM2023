@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_container/widget/cadastro.dart';
+import 'package:flutter_application_container/widget/login.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -8,13 +8,14 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text('Home')),
-        body: ElevatedButton(
-            child: const Text('Cadastro'),
-            onPressed: () {
-              Route rota = MaterialPageRoute(builder: (context) => Cadastro());
-              //Navigator.of(context).push(rota);
-              Navigator.push(context, rota);
-            }));
+        body: Center(
+            child: ElevatedButton(
+                child: const Text('Login'),
+                onPressed: () {
+                  Route rota = MaterialPageRoute(builder: (context) => Login());
+                  //Navigator.of(context).push(rota);
+                  Navigator.push(context, rota);
+                })));
   }
 }
 

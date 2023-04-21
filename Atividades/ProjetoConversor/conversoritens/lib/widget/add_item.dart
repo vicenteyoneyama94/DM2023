@@ -11,7 +11,24 @@ class add_Item extends StatelessWidget {
         body: Center(
             child: Column(children: [
           TextField(
-            decoration: InputDecoration(),
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Item',
+            ),
+          ),
+          TextField(
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Quantidade',
+            ),
+          ),
+          TextField(
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Valor do Item',
+            ),
           ),
           ElevatedButton(
               child: const Text('Salvar Item'),
