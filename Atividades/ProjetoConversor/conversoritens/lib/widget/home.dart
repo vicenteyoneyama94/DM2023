@@ -1,14 +1,16 @@
 import 'package:conversoritens/widget/add_loja.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class Inicio extends StatelessWidget {
+  const Inicio({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Lista de Compras"),
           centerTitle: true,
-          backgroundColor: Color.fromARGB(232, 240, 87, 87),
+          backgroundColor: const Color.fromARGB(232, 240, 87, 87),
           actions: <Widget>[
             IconButton(
                 onPressed: () {
@@ -23,12 +25,9 @@ class Home extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           height: 300,
-          color: Color.fromARGB(255, 255, 254, 254),
+          color: const Color.fromARGB(255, 255, 254, 254),
           child: Column(
             children: [
-              TextField(
-                onChanged: (value) {},
-              )
             ],
           ),
         ));

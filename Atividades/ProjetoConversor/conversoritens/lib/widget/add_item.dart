@@ -33,7 +33,7 @@ class add_Item extends StatelessWidget {
           ElevatedButton(
               child: const Text('Salvar Item'),
               onPressed: () {
-                Route rota = MaterialPageRoute(builder: (context) => Home());
+                Route rota = MaterialPageRoute(builder: (context) => Inicio());
               }),
         ])));
   }

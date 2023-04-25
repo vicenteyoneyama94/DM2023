@@ -1,12 +1,14 @@
 import 'package:conversoritens/widget/add_item.dart';
 import 'package:flutter/material.dart';
 
-class lista_Compras extends StatelessWidget {
+class lista_Itens extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lista de Lojas'),
+        title: Text('Lista de Itens'),
+        centerTitle: true,
+        backgroundColor: Color.fromARGB(232, 240, 87, 87),
         actions: <Widget>[
           IconButton(
               onPressed: () {
