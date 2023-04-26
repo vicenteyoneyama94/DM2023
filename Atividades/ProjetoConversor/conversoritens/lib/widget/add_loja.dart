@@ -10,7 +10,11 @@ class add_Loja extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: Text('Adicionar Loja')),
+      appBar: AppBar(
+          centerTitle: true,
+          title: const Text('Adicionar Loja'),
+          backgroundColor: const Color.fromARGB(232, 240, 87, 87),
+      ),
       body: Center(
         child: Column(
           children: <Widget>[

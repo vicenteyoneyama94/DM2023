@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'home.dart';
 import 'login.dart';
 
 class Structure extends StatelessWidget {
@@ -8,7 +7,7 @@ class Structure extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Lista de Compras',
       home: Home(),
     );

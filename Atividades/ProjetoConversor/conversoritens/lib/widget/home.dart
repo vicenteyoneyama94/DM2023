@@ -25,7 +25,7 @@ class Inicio extends StatelessWidget {
           alignment: Alignment.center,
           width: MediaQuery.of(context).size.width,
           height: 300,
-          color: const Color.fromARGB(255, 255, 254, 254),
+          color: const Color.fromARGB(255, 255, 255, 255),
           child: Column(
             children: [
             ],

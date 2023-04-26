@@ -10,6 +10,7 @@ class recuperarSenha extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text ('Recuperar Senha'),
+        backgroundColor: const Color.fromARGB(232, 240, 87, 87),
       ),
       body: Center(
         child: Form(
@@ -26,7 +27,7 @@ class recuperarSenha extends StatelessWidget {
               ElevatedButton(child: const Text ('Recuperar Senha'),
                   onPressed: () {
                 Route rota = MaterialPageRoute(builder: (context) => Home());
-                Navigator.pop(context);
+                Navigator.pop(context, rota);
               })
             ],
           ),

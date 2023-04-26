@@ -12,24 +12,29 @@ class Home extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: const Text('Login'),
+          backgroundColor: const Color.fromARGB(232, 240, 87, 87),
         ),
-        body: Center(
+        body: SizedBox(
+          width: MediaQuery.of(context).size.width,
           child: Column(children: [
-            const TextField(
-              decoration: InputDecoration(
+            const SizedBox(
+              child: TextField(
+                  decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 labelText: 'E-mail',
-              ),
+              )),
             ),
-            const TextField(
-              obscureText: true,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Senha',
+            const SizedBox(
+              child: TextField(
+                obscureText: true,
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'Senha',
+                ),
               ),
             ),
             TextButton(
-                child: Text('Esqueci minha senha'),
+                child: const Text('Esqueci minha senha'),
                 onPressed: () {
                   Route rota =
                       MaterialPageRoute(builder: (context) => recuperarSenha());
@@ -53,4 +58,3 @@ class Home extends StatelessWidget {
         ));
   }
 }
-///////////
