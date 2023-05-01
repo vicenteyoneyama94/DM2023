@@ -1,6 +1,7 @@
 import 'package:conversoritens/widget/cadastro.dart';
 import 'package:conversoritens/widget/home.dart';
 import 'package:conversoritens/widget/recuperar_senha.dart';
+import 'package:conversoritens/widget/sobre.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -17,7 +18,7 @@ class Home extends StatelessWidget {
         body: SizedBox(
           width: MediaQuery.of(context).size.width,
           child: Column(children: [
-            const SizedBox(
+           const SizedBox(
               child: TextField(
                   decoration: InputDecoration(
                 border: OutlineInputBorder(),
@@ -54,6 +55,11 @@ class Home extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Cadastro());
                   Navigator.push(context, rota);
                 }),
+            ElevatedButton(onPressed: (){
+              Route rota = MaterialPageRoute(builder: (context) => About());
+              Navigator.push(context, rota);
+            },
+                child: const Text('Teste'))
           ]),
         ));
   }

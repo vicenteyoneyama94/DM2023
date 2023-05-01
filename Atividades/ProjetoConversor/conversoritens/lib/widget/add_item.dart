@@ -1,4 +1,5 @@
 import 'package:conversoritens/widget/home.dart';
+import 'package:conversoritens/widget/lista_compras.dart';
 import 'package:flutter/material.dart';
 
 class add_Item extends StatelessWidget {
@@ -7,6 +8,7 @@ class add_Item extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Adicionar Itens'),
+          backgroundColor: const Color.fromARGB(232, 240, 87, 87),
         ),
         body: Center(
             child: Column(children: [
@@ -33,7 +35,8 @@ class add_Item extends StatelessWidget {
           ElevatedButton(
               child: const Text('Salvar Item'),
               onPressed: () {
-                Route rota = MaterialPageRoute(builder: (context) => Inicio());
+                Route rota = MaterialPageRoute(builder: (context) => lista_Compras());
+                Navigator.pop(context, rota);
               }),
         ])));
   }

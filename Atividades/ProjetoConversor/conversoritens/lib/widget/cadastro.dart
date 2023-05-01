@@ -7,7 +7,11 @@ class Cadastro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(centerTitle: true, title: const Text('Novo Usuário')),
+      appBar: AppBar(
+          centerTitle: true,
+          title: const Text('Novo Usuário'),
+          backgroundColor: const Color.fromARGB(232, 240, 87, 87),
+      ),
       body: Center(
         child: Form(
           child: Column(

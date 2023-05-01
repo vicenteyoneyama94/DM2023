@@ -6,7 +6,6 @@ import 'home.dart';
 class add_Loja extends StatelessWidget {
   const add_Loja({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

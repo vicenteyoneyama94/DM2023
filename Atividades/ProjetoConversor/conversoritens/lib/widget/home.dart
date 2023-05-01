@@ -1,6 +1,8 @@
 import 'package:conversoritens/widget/add_loja.dart';
 import 'package:flutter/material.dart';
 
+import 'lista_compras.dart';
+
 class Inicio extends StatelessWidget {
   const Inicio({super.key});
 
@@ -28,6 +30,11 @@ class Inicio extends StatelessWidget {
           color: const Color.fromARGB(255, 255, 255, 255),
           child: Column(
             children: [
+              ElevatedButton(onPressed: (){
+                Route rota = MaterialPageRoute(
+                    builder: (context) => lista_Compras());
+                Navigator.push(context, rota);
+              }, child: Text('Loja Selecionada'))
             ],
           ),
         ));
