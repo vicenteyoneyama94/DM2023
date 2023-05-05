@@ -41,6 +41,9 @@
       <excludeFolder url="file://$MODULE_DIR$/03032023 - dart_application_calculaSalario/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/03032023 - dart_application_calculaSalario/build" />
       <excludeFolder url="file://$MODULE_DIR$/03032023 - dart_application_calculaSalario/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/.dart_tool" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 33, extension level 5 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
