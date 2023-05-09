@@ -10,6 +10,16 @@ class Venda extends StatelessWidget {
         centerTitle: true,
         title: const Text ('Venda'),
       ),
+      body: Center(
+        child: Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Text('Produto 1: '), print(),
+          ],
+        ),
+      ),
+
     );
   }
 }
