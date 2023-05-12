@@ -1,7 +1,3 @@
-import 'dart:js';
-
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutterapp2/view/dto/contato.dart';
 import 'package:flutterapp2/view/interface/contato_dao_interface.dart';
 
@@ -30,31 +26,9 @@ class ContatoDAO implements ContatoDAOInterface {
             'https://cdn.pixabay.com/photo/2023/05/03/09/16/rooster-7967053_1280.jpg')
   ];
 
-  Widget criarLista() {
-    ContatoDAOInterface dao = ContatoDAO();
-    return FutureBuilder(
-        future: dao.buscarTodos(),
-        builder: (BuildContext context, AsyncSnapshot<List<Contato>> lista) {
-          if (!lista.hasData) return CircularProgressIndicator();
-          if (lista.data == null) return Container();
-          List<Contato> listaContatos = lista.data!;
-          return ListView.builder(
-            itemCount: listaContatos.length,
-            itemBuilder: (context, indice) {
-              var contato = listaContatos[indice];
-              return criarItemLista(contato);
-            },
-          );
-        });
-  }
 
-  Widget criarItemLista(Contato contato) {
-    return ListTile(
-      title: Text(contato.nome!),
-      subtitle: Text(contato.telefone!),
 
-    );
-  }
+
 
   @override
   Future<Contato> alterar(Contato contato) {

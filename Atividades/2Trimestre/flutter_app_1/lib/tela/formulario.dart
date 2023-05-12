@@ -72,9 +72,12 @@ class Formulario extends StatelessWidget {
             ElevatedButton(
                 onPressed: () {
                   if (keyForm.currentState!.validate() ) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                        content: Text(editorNome.text)));
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                        content: Text(editorNome.text + ' ' + editorSobrenome.text),
+
+                        )
+
+                    );
                   }
                 },
                 child: Text('ok'))
