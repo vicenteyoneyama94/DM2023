@@ -1,0 +1,15 @@
+https://dontpad.com/ifprddm
+
+Roteiro de Aula
+
+→baixar o projeto e executar no EMULADOR 
+
+https://github.com/heliokamakawa/-engenharia-de-software-2023-DDM/tree/main/2%C2%BA%20trimestre/02%20aula/projeto%20da%20aula/projeto%20inicial/lib
+
+
+→ olhar/analisar o projeto para entender o código;
+
+DTO serve para manipulação de dados
+trabalhar em equipe
+isolamento de problemas
+melhora a programação
