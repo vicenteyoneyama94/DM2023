@@ -1,8 +1,5 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:flutterapp2/rota.dart';
-import 'package:flutterapp2/view/contato_form.dart';
 import 'package:flutterapp2/view/interface/contato_dao_interface.dart';
 
 import 'database/fake/contato_dao.dart';
@@ -32,15 +29,15 @@ class ContatoLista extends StatelessWidget {
           List<Contato> listaContatos = lista.data!;
           return ListView.builder(
             itemCount: listaContatos.length,
-            itemBuilder: (context, indice) {
+            itemBuilder: (BuildContext context, indice) {
               var contato = listaContatos[indice];
-              return criarItemLista(contato);
+              return criarItemLista(context, contato);
             },
           );
         });
   }
 
-  Widget criarItemLista(Contato contato) {
+  Widget criarItemLista(BuildContext context, Contato contato) {
     return ListTile(
         title: Text(contato.nome!),
         subtitle: Text(contato.telefone!),
@@ -49,14 +46,14 @@ class ContatoLista extends StatelessWidget {
             width: 100,
             child: Row(
                 children: [
-              IconButton(
-                  onPressed: () => Navigator.pushNamed(context, Rota.contatoForm)
-                  , icon: Icon(Icons.edit)),
-              IconButton(onPressed: (){
+                  IconButton(
+                      onPressed: () => Navigator.pushNamed(context, Rota.contatoForm)
+                      , icon: Icon(Icons.edit)),
+                  IconButton(onPressed: (){
                     ContatoDAOInterface dao = ContatoDAO();
                     dao.excluir(contato.id);
                   }, icon: Icon(Icons.delete))
-              ]
+                ]
             )
         )
     );
