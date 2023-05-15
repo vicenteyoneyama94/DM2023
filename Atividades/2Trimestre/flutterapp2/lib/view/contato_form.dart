@@ -13,14 +13,16 @@ class ContatoForm extends StatelessWidget{
       appBar: AppBar(title: const Text('Cadastro')),
       body: Form(
         key: _formKey,
-        child: Column( 
-          children: [
+        child: SingleChildScrollView(
+            child: Column(
+            children: [
             campoNome,
             campoTelefone,
             campoEmail,
             campoURL,
             criarBotao(context),
           ],
+          )
         )
       )
     );

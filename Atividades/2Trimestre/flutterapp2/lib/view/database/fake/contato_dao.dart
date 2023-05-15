@@ -8,26 +8,20 @@ class ContatoDAO implements ContatoDAOInterface {
         nome: 'Jose da Silva',
         email: 'jose@a.com',
         telefone: '(44) 99999-5521',
-        URLAvatar:
-            'https://cdn.pixabay.com/photo/2023/05/03/09/16/rooster-7967053_1280.jpg'),
+        URLAvatar: 'https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png'),
     Contato.dados(
         id: 2,
         nome: 'Jose de Silva',
         email: 'jose@b.com',
         telefone: '(44) 98999-5521',
-        URLAvatar:
-            'https://cdn.pixabay.com/photo/2023/05/03/09/16/rooster-7967053_1280.jpg'),
+        URLAvatar: 'https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png'),
     Contato.dados(
         id: 3,
         nome: 'Adriano de Silva',
         email: 'adriano@b.com',
         telefone: '(44) 98949-5521',
-        URLAvatar:
-            'https://cdn.pixabay.com/photo/2023/05/03/09/16/rooster-7967053_1280.jpg')
+        URLAvatar:'https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_1280.png'),
   ];
-
-
-
 
 
   @override
@@ -49,7 +43,8 @@ class ContatoDAO implements ContatoDAOInterface {
 
   @override
   Future<bool> excluir(id) {
-    return Future.value();
+    print(id);
+    return Future.value(true);
   }
 
   @override
