@@ -1,5 +1,8 @@
+import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:flutterapp2/rota.dart';
+import 'package:flutterapp2/view/contato_form.dart';
 import 'package:flutterapp2/view/interface/contato_dao_interface.dart';
 
 import 'database/fake/contato_dao.dart';
@@ -46,10 +49,9 @@ class ContatoLista extends StatelessWidget {
             width: 100,
             child: Row(
                 children: [
-              IconButton(onPressed: (){
-                    ContatoDAOInterface dao = ContatoDAO();
-                    dao.alterar(contato.id);
-                  }, icon: Icon(Icons.edit)),
+              IconButton(
+                  onPressed: () => Navigator.pushNamed(context, Rota.contatoForm)
+                  , icon: Icon(Icons.edit)),
               IconButton(onPressed: (){
                     ContatoDAOInterface dao = ContatoDAO();
                     dao.excluir(contato.id);

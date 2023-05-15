@@ -8,7 +8,9 @@ class Formulario extends StatelessWidget {
   var editorSobrenome = TextEditingController();
   var editorTelefone = TextEditingController();
   var editorCPF = TextEditingController();
-  Pessoa pessoa = new Pessoa();
+  var editorRA = TextEditingController();
+  Pessoa pessoa = Pessoa();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,10 +22,23 @@ class Formulario extends StatelessWidget {
         child: Column(
           children: [
             TextFormField(
+              controller: editorRA,
+              keyboardType: TextInputType.number,
+              decoration: const InputDecoration(
+                label: Text('RA'),
+                hintText: 'Informe o RA',
+              ),
+              validator: (valorDigitado) {
+                if (valorDigitado == null || valorDigitado.isEmpty) {
+                  return 'o campo é obrigatório';
+                }
+                return null;
+              },
+            ),
+            TextFormField(
                 controller: editorNome,
-                decoration: InputDecoration(
-                    label: Text('Nome:'),
-                    hintText: 'Informe o seu nome.'),
+                decoration: const InputDecoration(
+                    label: Text('Nome:'), hintText: 'Informe o seu nome.'),
                 validator: (valorDigitado) {
                   if (valorDigitado == null || valorDigitado.isEmpty) {
                     return 'o campo é obrigatorio';
@@ -32,7 +47,7 @@ class Formulario extends StatelessWidget {
                 }),
             TextFormField(
                 controller: editorSobrenome,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   label: Text('Sobrenome'),
                   hintText: 'Informe o sobrenome',
                 ),
@@ -43,44 +58,44 @@ class Formulario extends StatelessWidget {
                   return null;
                 }),
             TextFormField(
-              controller: editorTelefone,
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(
-                label: Text('Telefone'),
-                hintText: 'Infome o telefone',
-              ),
-              validator: (valorDigitado){
-                if (valorDigitado == null || valorDigitado.isEmpty){
-                  return 'o campo é obrigatório';
-                }
-                return null;
-              }
-            ),
+                controller: editorTelefone,
+                keyboardType: TextInputType.number,
+                decoration: const InputDecoration(
+                  label: Text('Telefone'),
+                  hintText: 'Infome o telefone',
+                ),
+                validator: (valorDigitado) {
+                  if (valorDigitado == null || valorDigitado.isEmpty) {
+                    return 'o campo é obrigatório';
+                  }
+                  return null;
+                }),
             TextFormField(
-              controller: editorCPF,
-              decoration: InputDecoration(
-                label: Text('CPF'),
-                hintText: 'Informe o telefone',
-              ),
-              validator: (valorDigitado) {
-                if (valorDigitado == null || valorDigitado.isEmpty){
-                  return 'o campo é obrigatório';
-                }
-                return null;
-              }
-            ),
+                keyboardType: TextInputType.number,
+                controller: editorCPF,
+                decoration: const InputDecoration(
+                  label: Text('CPF'),
+                  hintText: 'Informe o telefone',
+                ),
+                validator: (valorDigitado) {
+                  if (valorDigitado == null || valorDigitado.isEmpty) {
+                    return 'o campo é obrigatório';
+                  }
+                  return null;
+                }),
             ElevatedButton(
                 onPressed: () {
-                  if (keyForm.currentState!.validate() ) {
+                  if (keyForm.currentState!.validate()) {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                        content: Text(editorNome.text + ' ' + editorSobrenome.text),
-
-                        )
-
-                    );
+                      content: Text('RA: ' + editorRA.text + ' ' +
+                          ' ' +
+                          'Nome: ' + editorNome.text +
+                          ' ' +
+                          editorSobrenome.text),
+                    ));
                   }
                 },
-                child: Text('ok'))
+                child: const Text('ok'))
           ],
         ),
       ),
