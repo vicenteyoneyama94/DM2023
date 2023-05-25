@@ -19,13 +19,14 @@ class Formulario extends StatelessWidget {
       ),
       body: Form(
         key: keyForm,
-        child: Column(
+        child: SingleChildScrollView(
+          child: Column(
           children: [
             TextFormField(
               controller: editorRA,
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
-                label: Text('RA'),
+                label: Text('RA:'),
                 hintText: 'Informe o RA',
               ),
               validator: (valorDigitado) {
@@ -38,7 +39,8 @@ class Formulario extends StatelessWidget {
             TextFormField(
                 controller: editorNome,
                 decoration: const InputDecoration(
-                    label: Text('Nome:'), hintText: 'Informe o seu nome.'),
+                    label: Text('Nome: '),
+                    hintText: 'Informe o seu nome.'),
                 validator: (valorDigitado) {
                   if (valorDigitado == null || valorDigitado.isEmpty) {
                     return 'o campo é obrigatorio';
@@ -48,7 +50,7 @@ class Formulario extends StatelessWidget {
             TextFormField(
                 controller: editorSobrenome,
                 decoration: const InputDecoration(
-                  label: Text('Sobrenome'),
+                  label: Text('Sobrenome: '),
                   hintText: 'Informe o sobrenome',
                 ),
                 validator: (valorDigitado) {
@@ -61,7 +63,7 @@ class Formulario extends StatelessWidget {
                 controller: editorTelefone,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                  label: Text('Telefone'),
+                  label: Text('Telefone: '),
                   hintText: 'Infome o telefone',
                 ),
                 validator: (valorDigitado) {
@@ -74,7 +76,7 @@ class Formulario extends StatelessWidget {
                 keyboardType: TextInputType.number,
                 controller: editorCPF,
                 decoration: const InputDecoration(
-                  label: Text('CPF'),
+                  label: Text('CPF: '),
                   hintText: 'Informe o telefone',
                 ),
                 validator: (valorDigitado) {
@@ -96,8 +98,9 @@ class Formulario extends StatelessWidget {
                   }
                 },
                 child: const Text('ok'))
-          ],
-        ),
+            ],
+          ),
+        )
       ),
     );
   }

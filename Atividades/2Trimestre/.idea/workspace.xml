@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9200c680-8bae-44f1-a27d-5e0ee3e70abe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flutter_app_1/lib/entidade/pessoa.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_app_1/lib/tela/formulario.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter_app_1/lib/tela/produto.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Atividades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Atividades.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Diário/2Trimestre/Diario09052023.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Diário/2Trimestre/Diario09052023.txt" afterDir="false" />
+    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="notepad diario">
+      <change afterPath="$PROJECT_DIR$/flutter_app_1/lib/database/pessoa_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app_1/lib/tela/formulario.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app_1/lib/tela/formulario.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_app_1/lib/tela/produto.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app_1/lib/tela/produto.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,39 +21,90 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PfOkOGV7CZ97JbAnjTuQ0NjvNL" />
+  <component name="ProjectId" id="2OkfYJmC38S6IZnvfOmccWYDkaL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Acer/Documents/Visual Studio 2022/DM2023/Atividades/2Trimestre/flutterapp2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/Documents/Visual Studio 2022/DM2023/Atividades/2Trimestre&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/flutter_app_1/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9200c680-8bae-44f1-a27d-5e0ee3e70abe" name="Changes" comment="" />
-      <created>1683844824518</created>
+      <changelist id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="" />
+      <created>1682109548755</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683844824518</updated>
+      <updated>1682109548755</updated>
     </task>
+    <task id="LOCAL-00001" summary="inicio 2 trimestre">
+      <created>1683671479110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683671479110</updated>
+    </task>
+    <task id="LOCAL-00002" summary="notepad diario">
+      <created>1683671545901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683671545901</updated>
+    </task>
+    <task id="LOCAL-00003" summary="notepad diario">
+      <created>1683671561216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683671561218</updated>
+    </task>
+    <task id="LOCAL-00004" summary="notepad diario">
+      <created>1683671623865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683671623865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicio 2 trimestre" />
+    <MESSAGE value="notepad diario" />
+    <option name="LAST_COMMIT_MESSAGE" value="notepad diario" />
   </component>
 </project>

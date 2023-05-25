@@ -1,0 +1,26 @@
+https://dontpad.com/ifprddm
+Material - Github 2º Trimestre aula 3
+
+>>>>BAIXE O PROJETO - Github 2º Trimestre aula 3 projeto aula - projeto inicial
+>>>>Já escolha o PC que rode o emulador e o projeto corretamente 
+ → execute no emulador Android
+ → revise o código
+ → veja as alterações do DAO 
+
+
+1º Aula - Formulário, validação, pegar o valor, widget Stateless, POO
+2º Aula - ListView, ListTile, corrigindo o link de alterar, excluir e detalhes 
+3º Aula - ???? 
+
+@@@@ Diário de Aula
+Atividade I - implemente o widget detalhes;
+Atividade II - Implemente pelo menos 3 listas do seu projeto.
+Atividade III - Implemente pelo menos 3 formulários do seu projeto.
+Atividade IV - Implemente pelo menos 3 detalhes do seu projeto.
+@@@@ Projeto
+Implementação do Projeto
+Faça a impelementação do conteúdo corrente no seu projeto.
+
+Resumo: Projeto do professor estava cheio de alterações, com isso
+tive que efetuar mudanças e adaptações, com fins de as mudanças de ambos
+derem certo e combinarem.

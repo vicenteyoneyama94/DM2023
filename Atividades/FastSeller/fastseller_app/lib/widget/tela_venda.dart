@@ -15,11 +15,11 @@ class Venda extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Text('Produto 1: '), print(),
+            Text('Produto 1: '),
           ],
         ),
       ),
-
+      )
     );
   }
 }

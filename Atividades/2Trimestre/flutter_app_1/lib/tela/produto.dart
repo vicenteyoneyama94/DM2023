@@ -39,8 +39,6 @@ class Produto extends StatelessWidget {
             ],
           ),
         )
-    )
-    ,
     );
   }
 }

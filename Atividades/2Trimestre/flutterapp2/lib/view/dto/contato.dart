@@ -1,23 +1,25 @@
 class Contato {
-  dynamic id;
-  String? nome;
-  String? telefone;
-  String? email;
-  String? URLAvatar;
+  final dynamic id;
+  final String nome;
+  final String telefone;
+  final String email;
+  final String urlAvatar;
 
-  Contato();
-
-  Contato.dados({
-    this.id,
-    this.nome,
-    this.telefone,
-    this.email,
-    this.URLAvatar
-});
+  Contato({
+      this.id,
+      required this.nome,
+      required this.telefone,
+      required this.email,
+      required this.urlAvatar});
 
   @override
-  String toString(){
-    return '''$nome $telefone $email $URLAvatar''';
+  String toString() {
+    return '''
+      $id
+      $nome 
+      $telefone 
+      $email
+      $urlAvatar
+    ''';
   }
-
 }

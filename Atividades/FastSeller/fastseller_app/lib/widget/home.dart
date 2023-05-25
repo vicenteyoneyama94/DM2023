@@ -1,3 +1,4 @@
+import 'package:fastseller_app/rota.dart';
 import 'package:flutter/material.dart';
 
 class Inicio extends StatelessWidget {
@@ -11,26 +12,35 @@ class Inicio extends StatelessWidget {
         title: const Text('FastSeller'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget> [
-            SizedBox(
-              width: MediaQuery.of(context).size.width,
-              height: 600,
-              child: const DecoratedBox(
-                  decoration: BoxDecoration(
-                    color: Colors.amberAccent,
-                  ),
-                child: ElevatedButton(
-                    child: Text('Venda'),
-                    onPressed: (){
-                      Route rota = MaterialPageRoute(builder: (context))
-                    }
-                    ),
-              ),
-
-            ),
-          ],
+        child: SizedBox(
+            width: MediaQuery
+                .of(context)
+                .size
+                .width,
+            height: 600,
+            child: Container(
+                width: 300,
+                child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      ElevatedButton(
+                        child: const Text('Vender'),
+                        onPressed: () =>
+                            Navigator.pushNamed(context, Rota.telaVenda)
+                      ),
+                      ElevatedButton(
+                        child: const Text('Ajustes'),
+                        onPressed: () =>
+                            Navigator.pushNamed(context, Rota.telaAjuste)
+                      ),
+                      ElevatedButton(
+                        child: const Text('Histórico'),
+                        onPressed: () =>
+                            Navigator.pushNamed(context, Rota.historicoVenda)
+                      )
+                    ]
+                ),
+            )
         ),
       ),
     );
