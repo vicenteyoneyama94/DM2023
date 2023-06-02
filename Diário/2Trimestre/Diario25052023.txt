@@ -1,0 +1,66 @@
+https://dontpad.com/ifprddm
+Material - Github 2º Trimestre aula 3
+
+>>>>BAIXE O PROJETO - Github 2º Trimestre 4 aula  projeto aula - projeto inicial
+>>>>Já escolha o PC que rode o emulador e o projeto corretamente 
+ → execute no emulador Android
+ → revise o código
+ → veja as alterações do DAO 
+
+
+Conteúdo principal: Persistência logal (SQLite)
+→ Implementação da classe de conexão;
+→ Implementação do DAO SQLite;
+
+Material de estudo:
+sqflite
+path
+Persistência local - balta.io
+Persistência local - macoratti
+
+Diário de Aula
+Descrever os pontos principais da classe de conexão (padrão utilizado, cuidados necessários, como funciona e como utilizar);
+Descrever os pontos principais da classe DAO (padrão utilizado, cuidados necessários, como funciona e como utilizar);
+Desenvolvimento do Projeto
+Implementar o SQLite no seu projeto.
+Aula
+baixe os arquivos e faça o projeto funcionar em um emulador não esqueça de adicionar a dependência (mask_text_input_formatter)
+
+Aula 01 - implementação da classe de conexão
+Aula 02 - implementação da classe DAO
+
+altere o dao utilizado na lista
+
+class _ContatoListaState extends State<ContatoLista> {
+  ContatoInterfaceDAO dao = ContatoDAOSQLite();
+  [...]
+}
+altere o dao utilizado no form
+
+class _ContatoFormState extends State<ContatoForm> {
+  @override
+  Widget build(BuildContext context){
+    [...]
+  }
+  
+  Widget criarBotao(BuildContext context){
+    return Botao(
+      context: context,
+      salvar: (){
+        [...]
+          ContatoInterfaceDAO dao = ContatoDAOSQLite(); //<<<<<<<<<<<<<<<
+  }
+}
+
+
+Quais dependencias são necessarias para conexão com BD
+sqlite e path
+
+Hoje apredido sobre o SQLite, onde criamos as classes contatodaosqlite
+para salvar os dados no banco, conexão que faz a validação de conexão
+com o banco de dados e um script onde ja continha contatos como um teste
+para testar o app. Com isso contatolista e contatoform, a gente altera
+o método ContatoDAOFake para ContatoDAOSQLite, onde os dados serão armazenados
+num arquivo de database.
+
+Continuação, projeto será refatorado, pois uma lógica e outra não estão se batendo.

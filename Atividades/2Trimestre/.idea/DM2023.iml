@@ -36,6 +36,12 @@
       <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/build" />
       <excludeFolder url="file://$MODULE_DIR$/Atividades/03032023 - dart_application_calculaSalario/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/aula5professor/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/aula5professor/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/aula5professor/build" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/FastSeller/fastseller_app/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
