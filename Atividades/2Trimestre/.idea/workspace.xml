@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="ALteracao problema nos projetos">
-      <change beforePath="$PROJECT_DIR$/.idea/DM2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DM2023.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="app reload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_app_1/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_app_1/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <recent name="C:\Users\Acer\Documents\Visual Studio 2022\DM2023\Atividades\2Trimestre\FastSeller\fastseller_app\lib\view" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart">
+  <component name="RunManager" selected="Flutter.main.dart (2)">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/aula5professor/lib/main.dart" />
       <method v="2" />
@@ -60,8 +57,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.main.dart (2)" />
+        <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.main.dart (1)" />
       </list>
     </recent_temporary>
@@ -117,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687059841351</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="app reload">
+      <created>1687060659008</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687060659008</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +141,7 @@
     <MESSAGE value="refatoração do projeto, reanálise" />
     <MESSAGE value="CRUD refatoração" />
     <MESSAGE value="ALteracao problema nos projetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALteracao problema nos projetos" />
+    <MESSAGE value="app reload" />
+    <option name="LAST_COMMIT_MESSAGE" value="app reload" />
   </component>
 </project>
