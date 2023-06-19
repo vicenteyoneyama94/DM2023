@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="app reload">
+    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="app reload lib">
+      <change beforePath="$PROJECT_DIR$/.idea/DM2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DM2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/.dart_tool/chrome-device/Default/Extension State/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/.dart_tool/chrome-device/Default/Extension State/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/.dart_tool/chrome-device/Default/Favicons" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/.dart_tool/chrome-device/Default/Favicons" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/android/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/android/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_application_2/build/2a122fd635ebb15f8b5069f1664d6d41.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_application_2/build/2a122fd635ebb15f8b5069f1664d6d41.cache.dill.track.dill" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +56,7 @@
       <recent name="C:\Users\Acer\Documents\Visual Studio 2022\DM2023\Atividades\2Trimestre\FastSeller\fastseller_app\lib\view" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (2)">
+  <component name="RunManager" selected="Flutter.main.dart (3)">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/aula5professor/lib/main.dart" />
       <method v="2" />
@@ -51,12 +65,17 @@
       <option name="filePath" value="$PROJECT_DIR$/FastSeller/fastseller_app/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="main.dart (3)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/flutter_application_2/lib/main.dart" />
+      <method v="2" />
+    </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/flutter_app_1/lib/main.dart" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.main.dart (3)" />
         <item itemvalue="Flutter.main.dart (2)" />
         <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.main.dart (1)" />
@@ -121,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687060659008</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="app reload lib">
+      <created>1687061541116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687061541116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +168,7 @@
     <MESSAGE value="CRUD refatoração" />
     <MESSAGE value="ALteracao problema nos projetos" />
     <MESSAGE value="app reload" />
-    <option name="LAST_COMMIT_MESSAGE" value="app reload" />
+    <MESSAGE value="app reload lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="app reload lib" />
   </component>
 </project>
