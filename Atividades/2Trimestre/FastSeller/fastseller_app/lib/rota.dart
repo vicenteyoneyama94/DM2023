@@ -1,10 +1,14 @@
 class Rota{
-  static const String home = '/';
-  static const String telaVenda = 'tela_venda';
-  static const String ajusteBebida = 'bebida';
-  static const String ajusteComida = 'comida';
-  static const String formaPagamento = 'forma_pagamento';
-  static const String historicoVenda = 'historico_venda';
-  static const String sobreoApp = 'sobreoapp';
-  static const String telaAjuste = 'tela_ajuste';
+  static const String Home = '/';
+  static const String FormaPagamento = 'forma_pagamento';
+  static const String TelaAjuste = 'tela_ajuste';
+  static const String ProdutoForm = 'formulario_produtos';
+  static const String ListaVariados = 'lista_variados';
+  static const String TelaVenda = 'tela_venda';
+  static const String ListaBebida = 'lista_bebida';
+  static const String ListaComida = 'lista_comida';
+  static const String HistoricoVenda = 'historico_venda';
+  static const String SobreoApp = 'sobreoapp';
+
+
 }

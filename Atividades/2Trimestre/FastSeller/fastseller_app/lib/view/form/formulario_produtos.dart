@@ -21,27 +21,29 @@ class _produtoFormState extends State<ProdutoForm> {
 
   @override
   Widget build(BuildContext context){
-    receberprodutoParaAlteracao(context);
+    receberProdutoParaAlteracao(context);
     return Scaffold(
-        appBar: AppBar(title: const Text('Cadastro')),
+        appBar: AppBar(title: const Text('Cadastrar um Produto')),
         body: Form(
             key: formKey,
             child: Column(
               children: [
                 campoNome,
-                campoTelefone,
-                campoEmail,
+                campoPreco,
+                campoQtde,
                 campoURL,
                 criarBotao(context),
+
               ],
             )
         )
     );
   }
 
+
   final campoNome = CampoNome(controle: TextEditingController());
-  final campoTelefone = CampoTelefone(controle: TextEditingController());
-  final campoEmail = CampoEmail(controle: TextEditingController());
+  final campoPreco = CampoPreco(controle: TextEditingController());
+  final campoQtde = CampoQtde(controle: TextEditingController());
   final campoURL = CampoURL(controle: TextEditingController());
 
   Widget criarBotao(BuildContext context){
@@ -51,7 +53,7 @@ class _produtoFormState extends State<ProdutoForm> {
         var formState = formKey.currentState;
         if(formState != null && formState.validate()){
           var  produto = preencherDTO();
-          ListaprodutoDAOInterface dao = produtoDAOSQLite();
+          ListaProdutoDAOInterface dao = produtoDAOSQLite();
           dao.salvar(produto);
           Navigator.pop(context);
         }
@@ -59,23 +61,24 @@ class _produtoFormState extends State<ProdutoForm> {
     );
   }
 
-  void receberprodutoParaAlteracao(BuildContext context){
+  void receberProdutoParaAlteracao(BuildContext context){
     var parametro = ModalRoute.of(context);
     if(parametro != null && parametro.settings.arguments != null){
-      produto produto = parametro.settings.arguments as produto;
+      Produto produto = parametro.settings.arguments as Produto;
       id = produto.id;
       preencherCampos(produto);
     }
   }
 
-  produto preencherDTO(){
-    return produto(
+  Produto preencherDTO(){
+    return Produto(
         id: id,
-        nome: campoNome.controle.text
+        nome: campoNome.controle.text,
+        qtde: campoQtde.controle.,
     );
   }
 
-  void preencherCampos(produto produto){
+  void preencherCampos(Produto produto){
     campoNome.controle.text = produto.nome;
   }
 }

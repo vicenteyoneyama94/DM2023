@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class formaPagamento extends StatelessWidget {
-  const formaPagamento({Key? key}) : super(key: key);
+class FormaPagamento extends StatelessWidget {
+  const FormaPagamento({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

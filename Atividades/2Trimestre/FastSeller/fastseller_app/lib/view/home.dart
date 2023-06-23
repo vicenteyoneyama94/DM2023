@@ -26,17 +26,17 @@ class Inicio extends StatelessWidget {
                       ElevatedButton(
                         child: const Text('Vender'),
                         onPressed: () =>
-                            Navigator.pushNamed(context, Rota.telaVenda)
+                            Navigator.pushNamed(context, Rota.TelaVenda)
                       ),
                       ElevatedButton(
                         child: const Text('Ajustes'),
                         onPressed: () =>
-                            Navigator.pushNamed(context, Rota.telaAjuste)
+                            Navigator.pushNamed(context, Rota.TelaAjuste)
                       ),
                       ElevatedButton(
                         child: const Text('Histórico'),
                         onPressed: () =>
-                            Navigator.pushNamed(context, Rota.historicoVenda)
+                            Navigator.pushNamed(context, Rota.HistoricoVenda)
                       )
                     ]
                 ),

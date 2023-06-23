@@ -4,12 +4,14 @@ class Comida {
   final String nome;
   final int qtde;
   final double preco;
+  final String fotoComida;
 
   Comida({
     this.id,
     required this.nome,
     required this.qtde,
-    required this.preco
+    required this.preco,
+    required this.fotoComida;
   });
 
   @override
@@ -19,6 +21,7 @@ class Comida {
     $nome
     $qtde
     $preco
+    $fotoComida
     ''';
   }
 

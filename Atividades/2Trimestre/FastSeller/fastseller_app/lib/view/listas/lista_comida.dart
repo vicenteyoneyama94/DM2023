@@ -6,7 +6,6 @@ import 'package:fastseller_app/inteface/lista_comidadao_interface.dart';
 import 'package:fastseller_app/rota.dart';
 import 'package:fastseller_app/view/widget/barra_navegacao.dart';
 import 'package:fastseller_app/view/widget/botao_adicionar.dart';
-import 'package:fastseller_app/view/widget/foto_comida.dart';
 import 'package:fastseller_app/view/widget/painel_botoes.dart';
 import 'package:flutter/material.dart';
 
@@ -23,9 +22,11 @@ class _ListaComidatate extends State<ListaComida> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Lista Comida')),
+        appBar: AppBar(title: const Text('Lista de Salgados')),
         body: criarLista(context),
-        floatingActionButton: BotaoAdicionar(acao: ()=> Navigator.pushNamed(context, Rota.comidaForm).then((value)=>buscarComida())),
+        floatingActionButton: BotaoAdicionar(acao:
+            ()=> Navigator.pushNamed(context, Rota.ListaComida)
+                .then((value)=>buscarComida())),
         bottomNavigationBar: const BarraNavegacao(),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked
     );
@@ -57,11 +58,13 @@ class _ListaComidatate extends State<ListaComida> {
   Widget criarItemLista(BuildContext context, Comida comida){
     return ItemLista(
         comida: comida,
-        alterar: () {
-          Navigator.pushNamed(context, Rota.comidaForm, arguments: comida).then((value) => buscarComida());
+        detalhes: () {
+          Navigator.pushNamed(context, Rota.ProdutoForm,
+              arguments: comida).then((value) => buscarComida());
         },
-        detalhes: (){
-          Navigator.pushNamed(context, Rota.comidaDetalhe, arguments: comida);
+        alterar: (){
+          Navigator.pushNamed(context, Rota.ProdutoForm,
+              arguments: comida).then((value) => buscarComida());
         },
         excluir: (){
           dao.excluir(comida.id);
@@ -81,9 +84,10 @@ class ItemLista extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return ListTile(
       title: Text(comida.nome),
-      subtitle: Text(comida.preco),
+      subtitle: Text(comida.preco.toString()),
       trailing: PainelBotoes(
           alterar: alterar,
           excluir: excluir

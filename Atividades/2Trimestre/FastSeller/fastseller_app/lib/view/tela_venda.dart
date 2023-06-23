@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Venda extends StatelessWidget {
-  const Venda({Key? key}) : super(key: key);
+class TelaVenda extends StatelessWidget {
+  const TelaVenda({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

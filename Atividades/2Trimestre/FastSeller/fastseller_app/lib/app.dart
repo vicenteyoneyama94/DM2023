@@ -1,5 +1,9 @@
 import 'package:fastseller_app/rota.dart';
+import 'package:fastseller_app/view/form/formulario_produtos.dart';
 import 'package:fastseller_app/view/home.dart';
+import 'package:fastseller_app/view/listas/lista_bebida.dart';
+import 'package:fastseller_app/view/listas/lista_comida.dart';
+import 'package:fastseller_app/view/listas/lista_variados.dart';
 import 'package:fastseller_app/view/sobreoapp.dart';
 import 'package:fastseller_app/view/tela_venda.dart';
 import 'package:fastseller_app/view/config/forma_pagamento.dart';
@@ -16,11 +20,15 @@ class App extends StatelessWidget {
       title: 'FastSeller',
       home: const Inicio(),
       routes: {
-        Rota.telaVenda: (context) => Venda(),
-        Rota.formaPagamento: (context) => formaPagamento(),
-        Rota.historicoVenda: (context) => historicoVenda(),
-        Rota.sobreoApp: (context) => sobreoApp(),
-        Rota.telaAjuste: (context) => telaAjuste(),
+        Rota.FormaPagamento: (context) => FormaPagamento(),
+        Rota.TelaAjuste: (context) => TelaAjuste(),
+        Rota.ProdutoForm: (context) => ProdutoForm(),
+        Rota.ListaComida:(context) => ListaComida(),
+        Rota.ListaBebida:(context) => ListaBebida(),
+        Rota.ListaVariados:(context) => ListaVariados(),
+        Rota.HistoricoVenda: (context) => HistoricoVenda(),
+        Rota.TelaVenda: (context) => TelaVenda(),
+        Rota.SobreoApp: (context) => SobreoApp(),
       },
     );
   }

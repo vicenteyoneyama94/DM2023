@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="app reload lib2" />
+    <list default="true" id="faf27335-8cfc-4327-870b-41145cc017ca" name="Changes" comment="app reload lib2">
+      <change afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/dto/produto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/inteface/lista_produtodao_interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/database/sqlite/scriptbd.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/database/sqlite/scriptbd.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/dto/comida.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/dto/comida.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/rota.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/rota.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/config/forma_pagamento.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/config/forma_pagamento.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/config/tela_ajuste.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/config/tela_ajuste.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/form/formulario_produtos.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/form/formulario_produtos.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/historico_venda.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/historico_venda.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_bebida.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_bebida.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_comida.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_comida.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_variados.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/listas/lista_variados.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/sobreoapp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/sobreoapp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/tela_venda.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/tela_venda.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/widget/foto_comida.dart" beforeDir="false" afterPath="$PROJECT_DIR$/FastSeller/fastseller_app/lib/view/widget/foto.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +60,7 @@
       <recent name="C:\Users\Acer\Documents\Visual Studio 2022\DM2023\Atividades\2Trimestre\FastSeller\fastseller_app\lib\view" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (3)">
+  <component name="RunManager" selected="Flutter.main.dart (2)">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/aula5professor/lib/main.dart" />
       <method v="2" />
@@ -59,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter.main.dart (3)" />
         <item itemvalue="Flutter.main.dart (2)" />
+        <item itemvalue="Flutter.main.dart (3)" />
         <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.main.dart (1)" />
       </list>
@@ -138,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687217651935</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="app reload lib2">
+      <created>1687217906797</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687217906797</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +187,7 @@
     <MESSAGE value="ALteracao problema nos projetos" />
     <MESSAGE value="app reload" />
     <MESSAGE value="app reload lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="app reload lib" />
+    <MESSAGE value="app reload lib2" />
+    <option name="LAST_COMMIT_MESSAGE" value="app reload lib2" />
   </component>
 </project>
